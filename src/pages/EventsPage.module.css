@@ -11,7 +11,7 @@
     justify-content: flex-start;
     border-right: 1px solid rgba(0,0,0,0.5);
     width: 20%;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .button{
@@ -36,13 +36,13 @@
 .button:hover{
     background-color: var( --active-button-color);
     color:white;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .active{
     background-color: var(--secondary-button-color);
     color:white;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .gallery{
     display:flex;
@@ -59,21 +59,21 @@
         width: 30%;
     }
     .container{
-        display:flex;
+        display:initial;
         flex-direction: column;
         min-height: 50vh;
     }
     .buttons{
-        display:flex;
-        align-self: center;
+        display:initial;
+        align-self: left;
         flex-direction: column;
         justify-content: flex-start;
-        width: 75%;
+        width: 35%;
         padding-right: 20px;
     }
     .events{
         align-self: center;
         margin-left:2%;
-        width: 70%;
+        width: 100%;
     }
 }
